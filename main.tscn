@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://bc1883ay8ogul"]
+
+[ext_resource type="Texture2D" uid="uid://baud8cqs3o1jb" path="res://icon.svg" id="1_ig7tw"]
+
+[node name="Main" type="Node2D"]
+
+[node name="GodotSampleProject" type="GDExample" parent="."]
+features/pulse_enabled = true
+features/pulse_speed = 4.02
+texture = ExtResource("1_ig7tw")
+
+[node name="GDExample" type="GDExample" parent="GodotSampleProject"]
